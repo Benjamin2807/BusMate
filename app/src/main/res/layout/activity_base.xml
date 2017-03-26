@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/benja"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ben2">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:layout_weight="1"
+        android:text="Login"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView"
+       android:textColor="#00ffff"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="14dp"
+        android:layout_above="@+id/textView19"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="99400 42191"
+        android:textSize="30dp"
+        android:textColor="#00ffff"
+        android:autoLink="phone"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="30dp"
+        android:textColor="#00ffff"
+        android:layout_below="@+id/textView16"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="benjaminpremkumar23@gmail.com"
+        android:autoLink="email"
+        android:textSize="15dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="52dp" />
+
+</RelativeLayout>
